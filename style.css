@@ -13,6 +13,15 @@ h1 {
   padding-top: 8px;
 }
 
+.header {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.header h1 {
+  margin-left: 10px;
+}
+
 .bar {
   background-color: #464b55;
   padding: 10px;
@@ -22,4 +31,26 @@ h1 {
 .logo {
   width: 50px;
   height: 50px;
+}
+
+/* Post */
+
+.container {
+  margin-top: 30px;
+  padding: 0 60px;
+}
+
+.post {
+  background-color: #282c34;
+  margin-bottom: 15px;
+  padding: 5px 20px 5px 20px;
+  border-radius: 12px;
+}
+
+.post h4 {
+  color: #98c379;
+}
+
+.post span {
+  color: #61afef;
 }
